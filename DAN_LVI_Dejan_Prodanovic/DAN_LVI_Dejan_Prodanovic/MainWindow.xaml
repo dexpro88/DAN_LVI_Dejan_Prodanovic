@@ -77,7 +77,7 @@
                     
                     Content="Download Website" />
             <Button Command="{Binding CompressFile}"
-                    Content="Compress file" />
+                    Content="Compress html files" />
             <Button Command="{Binding Close}"
                     Content="Close" />
         </StackPanel>

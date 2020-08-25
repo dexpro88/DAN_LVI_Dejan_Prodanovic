@@ -9,6 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.IO.Compression;
 
 namespace DAN_LVI_Dejan_Prodanovic.ViewModel
 {
@@ -126,8 +127,87 @@ namespace DAN_LVI_Dejan_Prodanovic.ViewModel
             //}
            
 
-        }    
-        
+        }
+
+
+        private ICommand compressFile;
+        public ICommand CompressFile
+        {
+            get
+            {
+                if (compressFile == null)
+                {
+                    compressFile = new RelayCommand(param => CompressFileExecute(),
+                        param => CanCompressFileExecute());
+                }
+                return compressFile;
+            }
+        }
+
+        private void CompressFileExecute()
+        {
+
+            try
+            {
+
+              
+                string dirname = @"..\..\.\" + "html-files";
+
+                StringBuilder sb = new StringBuilder();
+                string helpPath =@"..\..\.\htmlZipped";
+                sb.Append(helpPath);
+
+                DateTime currentTime = DateTime.Now;
+
+                sb.Append(currentTime.Day);
+                sb.Append(currentTime.Month);
+                sb.Append(currentTime.Year);
+                sb.Append(currentTime.Hour);
+                sb.Append(currentTime.Minute);
+                sb.Append(currentTime.Second);
+                sb.Append(currentTime.Millisecond);
+                sb.Append(".zip");
+                //string zippath = @"..\..\.\" + "proba" + ".zip";
+                string zippath = sb.ToString();
+
+                ZipFile.CreateFromDirectory(dirname, zippath);
+
+                StringBuilder sb1 = new StringBuilder();
+
+                sb1.Append("htmlZipped");
+                sb1.Append(currentTime.Day);
+                sb1.Append(currentTime.Month);
+                sb1.Append(currentTime.Year);
+                sb1.Append(currentTime.Hour);
+                sb1.Append(currentTime.Minute);
+                sb1.Append(currentTime.Second);
+                sb1.Append(currentTime.Millisecond);
+                sb1.Append(".zip");
+                string str = string.Format("Files are zipped to {0}", sb1.ToString());
+                MessageBox.Show(str);
+
+                 
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+            }
+        }
+
+        private bool CanCompressFileExecute()
+        {
+            //if (string.IsNullOrEmpty(Url))
+            //{
+            //    return false;
+            //}
+            //else
+            //{
+            return true;
+            //}
+
+
+        }
+
         private void GenerateHtmlFile(string html)
         {
             //string fileName = "html1.html";
