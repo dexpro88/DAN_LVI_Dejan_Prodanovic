@@ -19,7 +19,9 @@
             <Setter Property="Padding"
                     Value="10,0,10,0" />
             <Setter Property="Width"
-                    Value="80" />
+                    Value="150" />
+            <Setter Property="Height"
+                    Value="30" />
             <Setter Property="Foreground"
                     Value="White" />
             <Setter Property="Background"
@@ -37,7 +39,9 @@
             <Setter Property="FontSize"
                     Value="12" />
             <Setter Property="Width"
-                    Value="200" />
+                    Value="500" />
+            <Setter Property="Height"
+                    Value="20" />
         </Style>
         <Style TargetType="Label">
             <Setter Property="FontSize"
@@ -60,7 +64,10 @@
             <StackPanel  Orientation="Horizontal">
                 <TextBox Text="{Binding Url}" />
             </StackPanel>
-            
+            <!--<Label Content="Enter name of file where html will be saved:" />
+            <StackPanel  Orientation="Horizontal">
+                <TextBox Text="{Binding Url}" />-->
+            <!--</StackPanel>-->
         </StackPanel>
         <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Center"
@@ -69,6 +76,8 @@
             <Button Command="{Binding DownloadWebsite}"
                     
                     Content="Download Website" />
+            <Button Command="{Binding CompressFile}"
+                    Content="Compress file" />
             <Button Command="{Binding Close}"
                     Content="Close" />
         </StackPanel>
