@@ -1,0 +1,2222 @@
+﻿<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="hasSidebar hasPageActions hasBreadcrumb reference  has-default-focus theme-light" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="false" data-target="docs" x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="StreamWriter Class (System.IO)" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/dotnet/api/system.io.streamwriter" />
+			<meta property="og:description" content="Implements a TextWriter for writing characters to a stream in a particular encoding. " />
+		<meta property="og:image" content="https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png" />
+		<meta property="og:image:alt" content="Microsoft Logo" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@docsmsft" />
+
+
+	<meta name="monikers" content="dotnet-uwp-10.0" />
+<meta name="monikers" content="net-5.0" />
+<meta name="monikers" content="netcore-1.0" />
+<meta name="monikers" content="netcore-1.1" />
+<meta name="monikers" content="netcore-2.0" />
+<meta name="monikers" content="netcore-2.1" />
+<meta name="monikers" content="netcore-2.2" />
+<meta name="monikers" content="netcore-3.0" />
+<meta name="monikers" content="netcore-3.1" />
+<meta name="monikers" content="netframework-1.1" />
+<meta name="monikers" content="netframework-2.0" />
+<meta name="monikers" content="netframework-3.0" />
+<meta name="monikers" content="netframework-3.5" />
+<meta name="monikers" content="netframework-4.0" />
+<meta name="monikers" content="netframework-4.5" />
+<meta name="monikers" content="netframework-4.5.1" />
+<meta name="monikers" content="netframework-4.5.2" />
+<meta name="monikers" content="netframework-4.6" />
+<meta name="monikers" content="netframework-4.6.1" />
+<meta name="monikers" content="netframework-4.6.2" />
+<meta name="monikers" content="netframework-4.7" />
+<meta name="monikers" content="netframework-4.7.1" />
+<meta name="monikers" content="netframework-4.7.2" />
+<meta name="monikers" content="netframework-4.8" />
+<meta name="monikers" content="netstandard-1.0" />
+<meta name="monikers" content="netstandard-1.1" />
+<meta name="monikers" content="netstandard-1.2" />
+<meta name="monikers" content="netstandard-1.3" />
+<meta name="monikers" content="netstandard-1.4" />
+<meta name="monikers" content="netstandard-1.5" />
+<meta name="monikers" content="netstandard-1.6" />
+<meta name="monikers" content="netstandard-2.0" />
+<meta name="monikers" content="netstandard-2.1" />
+<meta name="monikers" content="xamarinandroid-7.1" />
+<meta name="monikers" content="xamarinios-10.8" />
+<meta name="monikers" content="xamarinmac-3.0" />
+<meta name="APILocation" content="System.IO.dll" />
+<meta name="APILocation" content="mscorlib.dll" />
+<meta name="APILocation" content="netstandard.dll" />
+<meta name="APILocation" content="System.Runtime.Extensions.dll" />
+<meta name="APILocation" content="System.Runtime.dll" />
+<meta name="APIName" content="System.IO.StreamWriter" />
+<meta name="APIType" content="Assembly" />
+<meta name="apiPlatform" content="dotnet" />
+<meta name="author" content="dotnet-bot" />
+<meta name="breadcrumb_path" content="/dotnet/breadcrumb/toc.json" />
+<meta name="depot_name" content="VS.dotnet-api-docs" />
+<meta name="document_id" content="2821007a-2aa1-c1a8-d010-0447b6d00e96" />
+<meta name="document_version_independent_id" content="8ad0c875-5308-b72b-c2e0-11824179ca9c" />
+<meta name="gitcommit" content="https://github.com/dotnet/dotnet-api-docs/blob/dd138627654144dc492a19fd25f56822e541ec92/xml/System.IO/StreamWriter.xml" />
+<meta name="locale" content="en-us" />
+<meta name="ms.author" content="dotnetcontent" />
+<meta name="ms.date" content="04/30/2018" />
+<meta name="ms.prod" content="dotnet-api" />
+<meta name="ms.technology" content="system.io" />
+<meta name="ms.topic" content="managed-reference" />
+<meta name="original_content_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.IO/StreamWriter.xml" />
+<meta name="search.ms_docsetname" content="dotnet-api-docs" />
+<meta name="search.ms_product" content="VS" />
+<meta name="search.ms_sitename" content="Docs" />
+<meta name="site_name" content="Docs" />
+<meta name="TopicType" content="apiref" />
+<meta name="uhfHeaderId" content="MSDocsHeader-DotNet" />
+<meta name="updated_at" content="2020-07-17 12:20 PM" />
+<meta name="page_type" content="dotnet" />
+<meta name="page_kind" content="class" />
+<meta name="ms.assetid" content="System.IO.StreamWriter" />
+<meta name="description" content="Implements a TextWriter for writing characters to a stream in a particular encoding. " />
+<meta name="toc_rel" content="_splitted/system.io/toc.json" />
+<meta name="search.mshattr.devlang" content="csharp vb cpp fsharp" />
+
+
+	<meta name="scope" content=".NET" />
+<link href="https://docs.microsoft.com/en-us/dotnet/api/system.io.streamwriter" rel="canonical">
+	<title>StreamWriter Class (System.IO) | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/7eb4676e.site-ltr.css ">
+
+	<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/a421c492.reference.css ">
+
+
+	<script>
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Reference',
+			brand: '',
+			context: {
+
+			},
+			hasBinaryRating: true,
+			hasGithubIssues: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: 'https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/StreamWriter.xml',
+			defaultDevLang: 'csharp',
+			extendBreadcrumb: true,
+			isEditDisplayable: true,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasBookmark: true,
+			hasShare: true
+		},
+		functions:{}
+	};
+	</script>
+	<script nomodule src="/static/third-party/bluebird/3.5.0/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/fetch/3.0.0/fetch.umd.min.js" integrity="sha384-EQIXrC5K2+7X8nGgLkB995I0/6jfAvvyG1ieZ+WYGxgJHFMD/alsG9fSDWvzb5Y1" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/template/1.4.0/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/url/0.5.7/url.min.js" integrity="sha384-vn7xBMtpSTfzaTRWxj0kVq0UcsbBrTOgZ/M1ISHqe1V358elYva+lfiEC+T8jLPc" crossorigin="anonymous"></script>
+	<script src="/_themes/docs.theme/master/en-us/_themes/scripts/7501e2bd.index-polyfills.js"></script>
+		<script src="/_themes/docs.theme/master/en-us/_themes/scripts/cd30e6ff.index-docs.js"></script>
+</head>
+
+<body lang="en-us" dir="ltr">
+<div class="header-holder has-default-focus">
+	<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused is-fixed has-inner-focus focus-visible has-top-zero has-left-zero has-right-zero has-padding-medium has-text-centered has-body-background-medium" tabindex="1">Skip to main content</a>
+		<div id="headerAreaHolder" data-bi-name="header">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+	<div class="nav-bar">
+		<div class="nav-bar-brand">
+			<a itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" class="nav-bar-button">
+				<div class="nav-bar-logo has-background-image theme-display is-light" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+				<div class="nav-bar-logo has-background-image theme-display is-dark is-high-contrast" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+			</a>
+		</div>
+	</div>
+	<div class="nav-bar has-border-top is-hidden-mobile">
+	</div>
+</header>		</div>
+
+				<div class="content-header uhf-container has-padding has-default-focus has-border-bottom-none" data-bi-name="content-header">
+				<nav class="has-padding-none has-padding-left-medium-tablet has-padding-right-medium-tablet has-padding-left-none-uhf-tablet has-padding-left-none-uhf-tablet has-padding-none-desktop has-flex-grow" data-bi-name="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+					<ul id="page-breadcrumbs" class="breadcrumbs">
+					</ul>
+				</nav>
+			<div class="content-header-controls">
+				<button type="button" class="contents-button button" data-bi-name="contents-expand" aria-haspopup="true">
+					<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+					<span class="contents-expand-title">Contents</span>
+				</button>
+				<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse" aria-controls="action-panel">
+					<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+					<span>Exit focus mode</span>
+				</button>
+			</div>
+			<div class="has-padding-none-tablet has-padding-medium is-size-small is-flex-touch has-flex-justify-content-space-between-touch has-flex-grow">
+				<ul class="is-hidden-mobile action-list has-flex-justify-content-start has-flex-justify-content-end-tablet is-flex is-flex-row has-flex-wrap has-flex-grow is-unstyled">
+					<li>
+
+<div class="language dropdown has-caret is-inline-block has-border-mobile">
+	<button class="dropdown-trigger button is-text is-small" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop has-margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span id="lang-title" class="is-visually-hidden-touch has-flex-align-self-start is-hidden-portrait" dir="ltr">Language</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" name="language-selector" id="language-selector" role="menu">
+		<ul data-bi-name="language-links" dir="ltr">
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-csharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-vb" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-cpp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false"></a>
+			</li>
+		</ul>
+	</div>
+</div>					</li>
+					<li>
+						<button type="button" class="bookmark button is-text has-inner-focus is-small is-icon-only-touch" data-list-type="bookmarks" data-bi-name="bookmark" title="Bookmark this page">
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-single-bookmark"></span>
+							</span>
+							<span class="bookmark-status is-visually-hidden-touch is-hidden-portrait">Bookmark</span>
+						</button>
+					</li>
+							<li id="contenteditbtn">
+								<a href="https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/StreamWriter.xml" class="button is-text has-inner-focus is-icon-only-touch is-small" title="Edit This Document" data-bi-name="edit" data-original_content_git_url="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.IO/StreamWriter.xml" data-original_content_git_url_template="{repo}/blob/{branch}/xml/System.IO/StreamWriter.xml" data-pr_repo="" data-pr_branch="">
+								<span class="icon" aria-hidden="true">
+									<span class="docon docon-edit-outline"></span>
+								</span>
+								<span class="is-visually-hidden-touch is-hidden-portrait">Edit</span>
+							</a>
+						</li>
+					<li>
+<div class="sharing dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small is-icon-only-touch" aria-controls="sharing-menu" aria-expanded="false" title="Share This Document" data-bi-name="share">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-sharing"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Share</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" id="sharing-menu">
+		<ul data-bi-name="share-links">
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-twitter" data-bi-name="twitter">
+					<span class="icon">
+						<span class="docon docon-brand-twitter has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-linkedin" data-bi-name="linkedin">
+					<span class="icon">
+						<span class="docon docon-brand-linkedin has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-facebook" data-bi-name="facebook">
+					<span class="icon">
+						<span class="docon docon-brand-facebook has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-email" data-bi-name="email">
+					<span class="icon">
+						<span class="docon docon-mail-message-fill has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Email</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>					</li>
+				</ul>
+				<button type="button" class="has-border contents-button button is-small is-text is-hidden-tablet has-inner-focus" aria-label="Contents" data-bi-name="contents-expand">
+					<span class="icon">
+						<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+					</span>
+					<span class="contents-expand-title">Table of contents</span>
+				</button>
+				<div class="is-invisible"></div>
+				<div class="is-hidden-tablet level-item is-flexible level-right">
+
+<div class="language dropdown has-caret is-inline-block has-border-mobile">
+	<button class="dropdown-trigger button is-text is-small" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop has-margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span id="lang-title" class="is-visually-hidden-touch has-flex-align-self-start is-hidden-portrait" dir="ltr">Language</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" name="language-selector" id="language-selector" role="menu">
+		<ul data-bi-name="language-links" dir="ltr">
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-csharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-vb" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-cpp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button is-text is-small is-fullwidth" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false"></a>
+			</li>
+		</ul>
+	</div>
+</div>					<button type="button" class="page-actions-button button is-small is-text is-hidden-tablet has-inner-focus has-border is-full-height  has-margin-left-small" aria-label="Page Actions" data-bi-name="pageactions">
+						<span class="icon">
+							<span class="docon docon-more-vertical" aria-hidden="true"></span>
+						</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+
+	<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus"></div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="is-fixed is-flex is-flex-column" role="navigation" aria-label="Primary"></nav>
+			</div>
+
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+				<div id="main-column" class="column  is-full is-four-fifths-desktop ">
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+						
+
+
+						<!-- <content> -->
+							<h1>Stream<wbr>Writer Class</h1>
+
+<h2 class="hiddenAnchor" id="definition">Definition</h2>
+
+<div class="metadata">
+		<dl class="attributeList">
+			<dt>Namespace:</dt>
+			<dd>
+				<span class="break-text">   <a class="xref" href="system.io?view=netcore-3.1" data-linktype="relative-path">System.IO</a> </span>
+			</dd>
+		</dl>
+
+
+		<dl class="attributeList" data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 ">
+			<dt>Assembly:</dt><dd>System.IO.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" net-5.0 ">
+			<dt>Assembly:</dt><dd>System.Runtime.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 ">
+			<dt>Assembly:</dt><dd>System.Runtime.Extensions.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+			<dt>Assembly:</dt><dd>mscorlib.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" netstandard-2.0 netstandard-2.1 ">
+			<dt>Assembly:</dt><dd>netstandard.dll</dd>
+		</dl>
+
+
+</div>
+	<div class="summaryHolder">
+		<div class="summary clearFix">
+			<p>Implements a <a href='system.io.textwriter?view=netcore-3.1' data-linktype="relative-path">TextWriter</a> for writing characters to a stream in a particular encoding.</p>
+
+		</div>
+	</div>
+<nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation">
+  <h3>In this article</h3>
+</nav>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="cpp lang-cpp" dir="ltr">public ref class StreamWriter : System::IO::TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 "><code class="csharp lang-csharp" dir="ltr">public class StreamWriter : System.IO.TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" netframework-1.1 "><code class="csharp lang-csharp" dir="ltr">[System.Serializable]
+public class StreamWriter : System.IO.TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="csharp lang-csharp" dir="ltr">[System.Serializable]
+[System.Runtime.InteropServices.ComVisible(true)]
+public class StreamWriter : System.IO.TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 "><code class="fsharp lang-fsharp" dir="ltr">type StreamWriter = class
+    inherit TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" netframework-1.1 "><code class="fsharp lang-fsharp" dir="ltr">[&lt;System.Serializable&gt;]
+type StreamWriter = class
+    inherit TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="fsharp lang-fsharp" dir="ltr">[&lt;System.Serializable&gt;]
+[&lt;System.Runtime.InteropServices.ComVisible(true)&gt;]
+type StreamWriter = class
+    inherit TextWriter</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="vb lang-vb" dir="ltr">Public Class StreamWriter
+Inherits TextWriter</code></pre>
+
+		<dl class="attributeList stack" data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 ">
+			<dt>Inheritance</dt>
+			<dd>
+				<div class="pdlHolder">
+					 <div class="pdl"><a href='system.object?view=netcore-3.1' data-linktype="relative-path">Object</a></div>  <div class="pdl"><a href='system.io.textwriter?view=netcore-3.1' data-linktype="relative-path">TextWriter</a></div> 
+					 <span>StreamWriter</span> 
+				</div>
+			</dd>
+		</dl>
+		<dl class="attributeList stack" data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+			<dt>Inheritance</dt>
+			<dd>
+				<div class="pdlHolder">
+					 <div class="pdl"><a href='system.object?view=netcore-3.1' data-linktype="relative-path">Object</a></div>  <div class="pdl"><a href='system.marshalbyrefobject?view=netcore-3.1' data-linktype="relative-path">MarshalByRefObject</a></div>  <div class="pdl"><a href='system.io.textwriter?view=netcore-3.1' data-linktype="relative-path">TextWriter</a></div> 
+					 <span>StreamWriter</span> 
+				</div>
+			</dd>
+		</dl>
+	<dl class="attributeList stack" data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+		<dt>Attributes</dt>
+		<dd>
+			<div class="cdlHolder">
+				<span class="cdl break-text" data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+					  <a class="xref" href="system.serializableattribute?view=netcore-3.1" title="System.SerializableAttribute" data-linktype="relative-path">SerializableAttribute</a></span>
+				<span class="cdl break-text" data-moniker=" netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+					  <a class="xref" href="system.runtime.interopservices.comvisibleattribute?view=netcore-3.1" title="System.Runtime.InteropServices.ComVisibleAttribute" data-linktype="relative-path">ComVisibleAttribute</a></span>
+			</div>
+		</dd>
+	</dl>
+	<h2 id="examples">Examples</h2>
+	<p>The following example shows how to use a <a href="system.io.streamwriter?view=netcore-3.1" data-linktype="relative-path">StreamWriter</a> object to write a file that lists the directories on the C drive, and then uses a <a href="system.io.streamreader?view=netcore-3.1" data-linktype="relative-path">StreamReader</a> object to read and display each directory name. A good practice is to use these objects in a <code>using</code> statement so that the unmanaged resources are correctly disposed. The <code>using</code> statement automatically calls <a href="system.idisposable.dispose?view=netcore-3.1" data-linktype="relative-path">Dispose</a> on the object when the code that is using it has completed. The constructor used in this example is not supported for use in Windows Store Apps.</p>
+<pre><code class="lang-csharp" name="StreamReadWrite#1">using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+namespace StreamReadWrite
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Get the directories currently on the C drive.
+            DirectoryInfo[] cDirs = new DirectoryInfo(@&quot;c:\&quot;).GetDirectories();
+
+            // Write each directory name to a file.
+            using (StreamWriter sw = new StreamWriter(&quot;CDriveDirs.txt&quot;))
+            {
+                foreach (DirectoryInfo dir in cDirs)
+                {
+                    sw.WriteLine(dir.Name);
+                }
+            }
+
+            // Read and show each line from the file.
+            string line = &quot;&quot;;
+            using (StreamReader sr = new StreamReader(&quot;CDriveDirs.txt&quot;))
+            {
+                while ((line = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
+            }
+        }
+    }
+}
+</code></pre><pre><code class="lang-vb" name="StreamReadWrite#1">Imports System.IO
+Class Program
+
+    Shared Sub Main()
+
+        ' Get the directories currently on the C drive.
+        Dim cDirs As DirectoryInfo() = New DirectoryInfo(&quot;c:\&quot;).GetDirectories()
+
+        ' Write each directory name to a file.
+        Using sw As StreamWriter = New StreamWriter(&quot;CDriveDirs.txt&quot;)
+            For Each Dir As DirectoryInfo In cDirs
+                sw.WriteLine(Dir.Name)
+            Next
+        End Using
+
+        'Read and show each line from the file.
+        Dim line As String = &quot;&quot;
+        Using sr As StreamReader = New StreamReader(&quot;CDriveDirs.txt&quot;)
+            Do
+                line = sr.ReadLine()
+                Console.WriteLine(line)
+            Loop Until line Is Nothing
+        End Using
+
+
+    End Sub
+
+End Class
+</code></pre>
+
+	<h2 id="remarks">Remarks</h2>
+	<p><a href="system.io.streamwriter?view=netcore-3.1" data-linktype="relative-path">StreamWriter</a> is designed for character output in a particular encoding, whereas classes derived from <a href="system.io.stream?view=netcore-3.1" data-linktype="relative-path">Stream</a> are designed for byte input and output.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>This type implements the <a href="system.idisposable?view=netcore-3.1" data-linktype="relative-path">IDisposable</a> interface. When you have finished using the type, you should dispose of it either directly or indirectly. To dispose of the type directly, call its <a href="system.idisposable.dispose?view=netcore-3.1" data-linktype="relative-path">Dispose</a> method in a <code>try</code>/<code>catch</code> block. To dispose of it indirectly, use a language construct such as <code>using</code> (in C#) or <code>Using</code> (in Visual Basic). For more information, see the &quot;Using an Object that Implements IDisposable&quot; section in the <a href="system.idisposable?view=netcore-3.1" data-linktype="relative-path">IDisposable</a> interface topic.</p>
+</div>
+<p><a href="system.io.streamwriter?view=netcore-3.1" data-linktype="relative-path">StreamWriter</a> defaults to using an instance of <a href="system.text.utf8encoding?view=netcore-3.1" data-linktype="relative-path">UTF8Encoding</a> unless specified otherwise. This instance of <code>UTF8Encoding</code> is constructed without a byte order mark (BOM), so its <a href="system.text.encoding.getpreamble?view=netcore-3.1" data-linktype="relative-path">GetPreamble</a> method returns an empty byte array. The default UTF-8 encoding for this constructor throws an exception on invalid bytes. This behavior is different from the behavior provided by the encoding object in the <a href="system.text.encoding.utf8?view=netcore-3.1" data-linktype="relative-path">Encoding.UTF8</a> property. To specify a BOM and determine whether an exception is thrown on invalid bytes, use a constructor that accepts an encoding object as a parameter, such as <a href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_String_System_Boolean_System_Text_Encoding_" data-linktype="relative-path">StreamWriter(String, Boolean, Encoding)</a> or <a href="system.io.streamwriter.-ctor?view=netcore-3.1" data-linktype="relative-path">StreamWriter</a>.</p>
+<p>By default, a <a href="system.io.streamwriter?view=netcore-3.1" data-linktype="relative-path">StreamWriter</a> is not thread safe. See <a href="system.io.textwriter.synchronized?view=netcore-3.1" data-linktype="relative-path">TextWriter.Synchronized</a> for a thread-safe wrapper.</p>
+<p>For a list of common I/O tasks, see <a href="/en-us/dotnet/standard/io/common-i-o-tasks" data-linktype="absolute-path">Common I/O Tasks</a>.</p>
+
+
+
+	<h2 id="constructors">
+		Constructors
+	</h2>
+	<table class="nameValue">
+        	<tr>
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_IO_Stream_" data-linktype="relative-path">StreamWriter(Stream)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified stream by using UTF-8 encoding and the default buffer size.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_" data-linktype="relative-path">StreamWriter(Stream, Encoding)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified stream by using the specified encoding and the default buffer size.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_System_Int32_" data-linktype="relative-path">StreamWriter(Stream, Encoding, Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified stream by using the specified encoding and buffer size.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_System_Int32_System_Boolean_" data-linktype="relative-path">StreamWriter(Stream, Encoding, Int32, Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified stream by using the specified encoding and buffer size, and optionally leaves the stream open.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_String_" data-linktype="relative-path">StreamWriter(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified file by using the default encoding and buffer size.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_String_System_Boolean_" data-linktype="relative-path">StreamWriter(String, Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified file by using the default encoding and buffer size. If the file exists, it can be either overwritten or appended to. If the file does not exist, this constructor creates a new file.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_String_System_Boolean_System_Text_Encoding_" data-linktype="relative-path">StreamWriter(String, Boolean, Encoding)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified file by using the specified encoding and default buffer size. If the file exists, it can be either overwritten or appended to. If the file does not exist, this constructor creates a new file.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.-ctor?view=netcore-3.1#System_IO_StreamWriter__ctor_System_String_System_Boolean_System_Text_Encoding_System_Int32_" data-linktype="relative-path">StreamWriter(String, Boolean, Encoding, Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Initializes a new instance of the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> class for the specified file on the specified path, using the specified encoding and buffer size. If the file exists, it can be either overwritten or appended to. If the file does not exist, this constructor creates a new file.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+	<h2 id="fields" data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+		Fields
+    </h2>
+	<table class="nameValue">
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.corenewline?view=netcore-3.1" data-linktype="relative-path">CoreNewLine</a>
+		</span>
+	</td>
+	<td>
+		  <p>Stores the newline characters used for this <code data-dev-comment-type="langword">TextWriter</code>.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.null?view=netcore-3.1" data-linktype="relative-path">Null</a>
+	</span>
+</td>
+	<td>
+		<p>Provides a <code data-dev-comment-type="langword">StreamWriter</code> with no backing store that can be written to, but not read from.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+	<h2 id="properties">
+		Properties
+	</h2>
+	<table class="nameValue">
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.autoflush?view=netcore-3.1#System_IO_StreamWriter_AutoFlush" data-linktype="relative-path">AutoFlush</a>
+	</span>
+</td>
+	<td>
+		<p>Gets or sets a value indicating whether the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> will flush its buffer to the underlying stream after every call to <a href='system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_Char_' data-linktype="relative-path">Write(Char)</a>.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.basestream?view=netcore-3.1#System_IO_StreamWriter_BaseStream" data-linktype="relative-path">BaseStream</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the underlying stream that interfaces with a backing store.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.encoding?view=netcore-3.1#System_IO_StreamWriter_Encoding" data-linktype="relative-path">Encoding</a>
+	</span>
+</td>
+	<td>
+		<p>Gets the <a href='system.text.encoding?view=netcore-3.1' data-linktype="relative-path">Encoding</a> in which the output is written.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.formatprovider?view=netcore-3.1#System_IO_TextWriter_FormatProvider" data-linktype="relative-path">FormatProvider</a>
+		</span>
+	</td>
+	<td>
+		  <p>Gets an object that controls formatting.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.newline?view=netcore-3.1#System_IO_TextWriter_NewLine" data-linktype="relative-path">NewLine</a>
+		</span>
+	</td>
+	<td>
+		  <p>Gets or sets the line terminator string used by the current <code data-dev-comment-type="langword">TextWriter</code>.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+	</table>
+
+
+	<h2 id="methods" data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 ">
+		Methods
+	</h2>
+	<table class="nameValue">
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.close?view=netcore-3.1#System_IO_StreamWriter_Close" data-linktype="relative-path">Close()</a>
+	</span>
+</td>
+	<td>
+		<p>Closes the current <code data-dev-comment-type="langword">StreamWriter</code> object and the underlying stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.close?view=netcore-3.1#System_IO_TextWriter_Close" data-linktype="relative-path">Close()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Closes the current writer and releases any system resources associated with the writer.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.marshalbyrefobject.createobjref?view=netcore-3.1#System_MarshalByRefObject_CreateObjRef_System_Type_" data-linktype="relative-path">CreateObjRef(Type)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Creates an object that contains all the relevant information required to generate a proxy used to communicate with a remote object.</p>
+
+		(Inherited from   <a class="xref" href="system.marshalbyrefobject?view=netcore-3.1" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.dispose?view=netcore-3.1#System_IO_TextWriter_Dispose" data-linktype="relative-path">Dispose()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Releases all resources used by the <a href='system.io.textwriter?view=netcore-3.1' data-linktype="relative-path">TextWriter</a> object.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.dispose?view=netcore-3.1#System_IO_StreamWriter_Dispose_System_Boolean_" data-linktype="relative-path">Dispose(Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Causes any buffered data to be written to the underlying stream, releases the unmanaged resources used by the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a>, and optionally the managed resources.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.disposeasync?view=netcore-3.1#System_IO_StreamWriter_DisposeAsync" data-linktype="relative-path">DisposeAsync()</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes any buffered data to the underlying stream and releases the unmanaged resources used by the <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a>.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.disposeasync?view=netcore-3.1#System_IO_TextWriter_DisposeAsync" data-linktype="relative-path">DisposeAsync()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously releases all resources used by the <a href='system.io.textwriter?view=netcore-3.1' data-linktype="relative-path">TextWriter</a> object.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.object.equals?view=netcore-3.1#System_Object_Equals_System_Object_" data-linktype="relative-path">Equals(Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Determines whether the specified object is equal to the current object.</p>
+
+		(Inherited from   <a class="xref" href="system.object?view=netcore-3.1" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.finalize?view=netcore-3.1#System_IO_StreamWriter_Finalize" data-linktype="relative-path">Finalize()</a>
+	</span>
+</td>
+	<td>
+		<p>Frees the resources of the current <a href='system.io.streamwriter?view=netcore-3.1' data-linktype="relative-path">StreamWriter</a> before it is reclaimed by the garbage collector.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.flush?view=netcore-3.1#System_IO_StreamWriter_Flush" data-linktype="relative-path">Flush()</a>
+	</span>
+</td>
+	<td>
+		<p>Clears all buffers for the current writer and causes any buffered data to be written to the underlying stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.flushasync?view=netcore-3.1#System_IO_StreamWriter_FlushAsync" data-linktype="relative-path">FlushAsync()</a>
+	</span>
+</td>
+	<td>
+		<p>Clears all buffers for this stream asynchronously and causes any buffered data to be written to the underlying device.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.flushasync?view=netcore-3.1#System_IO_TextWriter_FlushAsync" data-linktype="relative-path">FlushAsync()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously clears all buffers for the current writer and causes any buffered data to be written to the underlying device.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.object.gethashcode?view=netcore-3.1#System_Object_GetHashCode" data-linktype="relative-path">GetHashCode()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Serves as the default hash function.</p>
+
+		(Inherited from   <a class="xref" href="system.object?view=netcore-3.1" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.marshalbyrefobject.getlifetimeservice?view=netcore-3.1#System_MarshalByRefObject_GetLifetimeService" data-linktype="relative-path">GetLifetimeService()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Retrieves the current lifetime service object that controls the lifetime policy for this instance.</p>
+
+		(Inherited from   <a class="xref" href="system.marshalbyrefobject?view=netcore-3.1" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.object.gettype?view=netcore-3.1#System_Object_GetType" data-linktype="relative-path">GetType()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Gets the <a href='system.type?view=netcore-3.1' data-linktype="relative-path">Type</a> of the current instance.</p>
+
+		(Inherited from   <a class="xref" href="system.object?view=netcore-3.1" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.marshalbyrefobject.initializelifetimeservice?view=netcore-3.1#System_MarshalByRefObject_InitializeLifetimeService" data-linktype="relative-path">InitializeLifetimeService()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Obtains a lifetime service object to control the lifetime policy for this instance.</p>
+
+		(Inherited from   <a class="xref" href="system.marshalbyrefobject?view=netcore-3.1" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.object.memberwiseclone?view=netcore-3.1#System_Object_MemberwiseClone" data-linktype="relative-path">MemberwiseClone()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Creates a shallow copy of the current <a href='system.object?view=netcore-3.1' data-linktype="relative-path">Object</a>.</p>
+
+		(Inherited from   <a class="xref" href="system.object?view=netcore-3.1" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.marshalbyrefobject.memberwiseclone?view=netcore-3.1#System_MarshalByRefObject_MemberwiseClone_System_Boolean_" data-linktype="relative-path">MemberwiseClone(Boolean)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Creates a shallow copy of the current <a href='system.marshalbyrefobject?view=netcore-3.1' data-linktype="relative-path">MarshalByRefObject</a> object.</p>
+
+		(Inherited from   <a class="xref" href="system.marshalbyrefobject?view=netcore-3.1" data-linktype="relative-path">MarshalByRefObject</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.object.tostring?view=netcore-3.1#System_Object_ToString" data-linktype="relative-path">ToString()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Returns a string that represents the current object.</p>
+
+		(Inherited from   <a class="xref" href="system.object?view=netcore-3.1" data-linktype="relative-path">Object</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Boolean_" data-linktype="relative-path">Write(Boolean)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a <code data-dev-comment-type="langword">Boolean</code> value to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_Char_" data-linktype="relative-path">Write(Char)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a character to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_Char___" data-linktype="relative-path">Write(Char[])</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a character array to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">Write(Char[], Int32, Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a subarray of characters to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Decimal_" data-linktype="relative-path">Write(Decimal)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a decimal value to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Double_" data-linktype="relative-path">Write(Double)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an 8-byte floating-point value to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Int32_" data-linktype="relative-path">Write(Int32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte signed integer to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Int64_" data-linktype="relative-path">Write(Int64)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an 8-byte signed integer to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Object_" data-linktype="relative-path">Write(Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an object to the text stream by calling the <code data-dev-comment-type="langword">ToString</code> method on that object.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_ReadOnlySpan_System_Char__" data-linktype="relative-path">Write(ReadOnlySpan&lt;Char&gt;)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a character span to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_ReadOnlySpan_System_Char__" data-linktype="relative-path">Write(ReadOnlySpan&lt;Char&gt;)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a character span to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Single_" data-linktype="relative-path">Write(Single)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte floating-point value to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr>	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_String_" data-linktype="relative-path">Write(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a string to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_String_System_Object_" data-linktype="relative-path">Write(String, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string to the stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a> method.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_String_System_Object_" data-linktype="relative-path">Write(String, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string to the text stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_String_System_Object_System_Object_" data-linktype="relative-path">Write(String, Object, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string to the stream using the same semantics  as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object)</a> method..</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_String_System_Object_System_Object_" data-linktype="relative-path">Write(String, Object, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string to the text stream using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object)</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_String_System_Object_System_Object_System_Object_" data-linktype="relative-path">Write(String, Object, Object, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string to the stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object, Object)</a> method.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_String_System_Object_System_Object_System_Object_" data-linktype="relative-path">Write(String, Object, Object, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string to the text stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object, Object)</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.write?view=netcore-3.1#System_IO_StreamWriter_Write_System_String_System_Object___" data-linktype="relative-path">Write(String, Object[])</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string to the stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object___' data-linktype="relative-path">Format(String, Object[])</a> method.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_String_System_Object___" data-linktype="relative-path">Write(String, Object[])</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string to the text stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object___' data-linktype="relative-path">Format(String, Object[])</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_Text_StringBuilder_" data-linktype="relative-path">Write(StringBuilder)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a string builder to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_UInt32_" data-linktype="relative-path">Write(UInt32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte unsigned integer to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.write?view=netcore-3.1#System_IO_TextWriter_Write_System_UInt64_" data-linktype="relative-path">Write(UInt64)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an 8-byte unsigned integer to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeasync?view=netcore-3.1#System_IO_StreamWriter_WriteAsync_System_Char_" data-linktype="relative-path">WriteAsync(Char)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a character to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_Char_" data-linktype="relative-path">WriteAsync(Char)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a character to the text stream asynchronously.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_Char___" data-linktype="relative-path">WriteAsync(Char[])</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a character array to the text stream asynchronously.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeasync?view=netcore-3.1#System_IO_StreamWriter_WriteAsync_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">WriteAsync(Char[], Int32, Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a subarray of characters to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">WriteAsync(Char[], Int32, Int32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a subarray of characters to the text stream asynchronously.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeasync?view=netcore-3.1#System_IO_StreamWriter_WriteAsync_System_ReadOnlyMemory_System_Char__System_Threading_CancellationToken_" data-linktype="relative-path">WriteAsync(ReadOnlyMemory&lt;Char&gt;, CancellationToken)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a character memory region to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_ReadOnlyMemory_System_Char__System_Threading_CancellationToken_" data-linktype="relative-path">WriteAsync(ReadOnlyMemory&lt;Char&gt;, CancellationToken)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a character memory region to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeasync?view=netcore-3.1#System_IO_StreamWriter_WriteAsync_System_String_" data-linktype="relative-path">WriteAsync(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a string to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_String_" data-linktype="relative-path">WriteAsync(String)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a string to the text stream asynchronously.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeasync?view=netcore-3.1#System_IO_TextWriter_WriteAsync_System_Text_StringBuilder_System_Threading_CancellationToken_" data-linktype="relative-path">WriteAsync(StringBuilder, CancellationToken)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a string builder to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine" data-linktype="relative-path">WriteLine()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a line terminator to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Boolean_" data-linktype="relative-path">WriteLine(Boolean)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a <code data-dev-comment-type="langword">Boolean</code> value to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Char_" data-linktype="relative-path">WriteLine(Char)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a character to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Char___" data-linktype="relative-path">WriteLine(Char[])</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes an array of characters to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">WriteLine(Char[], Int32, Int32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a subarray of characters to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Decimal_" data-linktype="relative-path">WriteLine(Decimal)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a decimal value to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Double_" data-linktype="relative-path">WriteLine(Double)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 8-byte floating-point value to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Int32_" data-linktype="relative-path">WriteLine(Int32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte signed integer to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Int64_" data-linktype="relative-path">WriteLine(Int64)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an 8-byte signed integer to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Object_" data-linktype="relative-path">WriteLine(Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an object to the text stream, by calling the <code data-dev-comment-type="langword">ToString</code> method on that object, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_ReadOnlySpan_System_Char__" data-linktype="relative-path">WriteLine(ReadOnlySpan&lt;Char&gt;)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes the text representation of a character span to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_ReadOnlySpan_System_Char__" data-linktype="relative-path">WriteLine(ReadOnlySpan&lt;Char&gt;)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a character span to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Single_" data-linktype="relative-path">WriteLine(Single)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte floating-point value to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_String_" data-linktype="relative-path">WriteLine(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a string to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_String_" data-linktype="relative-path">WriteLine(String)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a string to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_String_System_Object_" data-linktype="relative-path">WriteLine(String, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string and a new line to the stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a> method.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_String_System_Object_" data-linktype="relative-path">WriteLine(String, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string and a new line to the text stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_String_System_Object_System_Object_" data-linktype="relative-path">WriteLine(String, Object, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes a formatted string and a new line to the stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object)</a> method.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_String_System_Object_System_Object_" data-linktype="relative-path">WriteLine(String, Object, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes a formatted string and a new line to the text stream, using the same semantics as the <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_System_Object_' data-linktype="relative-path">Format(String, Object, Object)</a> method.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_String_System_Object_System_Object_System_Object_" data-linktype="relative-path">WriteLine(String, Object, Object, Object)</a>
+	</span>
+</td>
+	<td>
+		<p>Writes out a formatted string and a new line to the stream, using the same semantics as <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a>.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_String_System_Object_System_Object_System_Object_" data-linktype="relative-path">WriteLine(String, Object, Object, Object)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes out a formatted string and a new line to the text stream, using the same semantics as <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a>.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writeline?view=netcore-3.1#System_IO_StreamWriter_WriteLine_System_String_System_Object___" data-linktype="relative-path">WriteLine(String, Object[])</a>
+	</span>
+</td>
+	<td>
+		<p>Writes out a formatted string and a new line to the stream, using the same semantics as <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a>.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netcore-2.1 netcore-2.2 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_String_System_Object___" data-linktype="relative-path">WriteLine(String, Object[])</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes out a formatted string and a new line to the text stream, using the same semantics as <a href='system.string.format?view=netcore-3.1#System_String_Format_System_String_System_Object_' data-linktype="relative-path">Format(String, Object)</a>.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_Text_StringBuilder_" data-linktype="relative-path">WriteLine(StringBuilder)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a string builder to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_UInt32_" data-linktype="relative-path">WriteLine(UInt32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of a 4-byte unsigned integer to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writeline?view=netcore-3.1#System_IO_TextWriter_WriteLine_System_UInt64_" data-linktype="relative-path">WriteLine(UInt64)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Writes the text representation of an 8-byte unsigned integer to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writelineasync?view=netcore-3.1#System_IO_StreamWriter_WriteLineAsync" data-linktype="relative-path">WriteLineAsync()</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a line terminator to the stream.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync" data-linktype="relative-path">WriteLineAsync()</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a line terminator to the text stream.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writelineasync?view=netcore-3.1#System_IO_StreamWriter_WriteLineAsync_System_Char_" data-linktype="relative-path">WriteLineAsync(Char)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a character to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_Char_" data-linktype="relative-path">WriteLineAsync(Char)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a character to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_Char___" data-linktype="relative-path">WriteLineAsync(Char[])</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes an array of characters to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writelineasync?view=netcore-3.1#System_IO_StreamWriter_WriteLineAsync_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">WriteLineAsync(Char[], Int32, Int32)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a subarray of characters to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_Char___System_Int32_System_Int32_" data-linktype="relative-path">WriteLineAsync(Char[], Int32, Int32)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a subarray of characters to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" net-5.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writelineasync?view=netcore-3.1#System_IO_StreamWriter_WriteLineAsync_System_ReadOnlyMemory_System_Char__System_Threading_CancellationToken_" data-linktype="relative-path">WriteLineAsync(ReadOnlyMemory&lt;Char&gt;, CancellationToken)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes the text representation of a character memory region to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netcore-2.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_ReadOnlyMemory_System_Char__System_Threading_CancellationToken_" data-linktype="relative-path">WriteLineAsync(ReadOnlyMemory&lt;Char&gt;, CancellationToken)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes the text representation of a character memory region to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.io.streamwriter.writelineasync?view=netcore-3.1#System_IO_StreamWriter_WriteLineAsync_System_String_" data-linktype="relative-path">WriteLineAsync(String)</a>
+	</span>
+</td>
+	<td>
+		<p>Asynchronously writes a string to the stream, followed by a line terminator.</p>
+
+	</td>
+
+        	</tr>
+        	<tr data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_String_" data-linktype="relative-path">WriteLineAsync(String)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes a string to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.writelineasync?view=netcore-3.1#System_IO_TextWriter_WriteLineAsync_System_Text_StringBuilder_System_Threading_CancellationToken_" data-linktype="relative-path">WriteLineAsync(StringBuilder, CancellationToken)</a>
+		</span>
+	</td>
+	<td>
+		  <p>Asynchronously writes the text representation of a string builder to the text stream, followed by a line terminator.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+	</table>
+
+
+
+
+	<h2 id="explicit-interface-implementations" data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+		Explicit Interface Implementations
+	</h2>
+	<table class="nameValue">
+        	<tr data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 net-5.0 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">	
+	<td>
+		<span class="break-text">
+			  <a class="xref" href="system.io.textwriter.system-idisposable-dispose?view=netcore-3.1#System_IO_TextWriter_System_IDisposable_Dispose" data-linktype="relative-path">IDisposable.Dispose()</a>
+		</span>
+	</td>
+	<td>
+		  <p>For a description of this member, see <a href='system.idisposable.dispose?view=netcore-3.1#System_IDisposable_Dispose' data-linktype="relative-path">Dispose()</a>.</p>
+
+		(Inherited from   <a class="xref" href="system.io.textwriter?view=netcore-3.1" data-linktype="relative-path">TextWriter</a>)
+	</td>
+        	</tr>
+	</table>
+
+	<h2 id="extension-methods">Extension Methods</h2>
+	<table class="nameValue">
+        	<tr data-moniker=" net-5.0 netcore-3.0 netcore-3.1 netstandard-2.1 ">	
+	  <td>
+	<span class="break-text">
+		<a class="xref" href="system.threading.tasks.taskasyncenumerableextensions.configureawait?view=netcore-3.1#System_Threading_Tasks_TaskAsyncEnumerableExtensions_ConfigureAwait_System_IAsyncDisposable_System_Boolean_" data-linktype="relative-path">ConfigureAwait(IAsyncDisposable, Boolean)</a>
+	</span>
+</td>
+	<td>
+		<p>Configures how awaits on the tasks returned from an async disposable are performed.</p>
+
+	</td>
+
+        	</tr>
+	</table>
+
+
+	<h2 id="moniker-applies-to" class="moniker-applies-to">Applies to</h2>
+
+
+	<h2 id="see-also">See also</h2>
+	<ul>
+<li><a href="system.io.stream?view=netcore-3.1" data-linktype="relative-path">Stream</a></li>
+<li><a href="system.io.streamreader?view=netcore-3.1" data-linktype="relative-path">StreamReader</a></li>
+<li><a href="system.text.encoder?view=netcore-3.1" data-linktype="relative-path">Encoder</a></li>
+<li><a href="system.text.encoding?view=netcore-3.1" data-linktype="relative-path">Encoding</a></li>
+<li><a href="/en-us/dotnet/standard/io/" data-linktype="absolute-path">File and Stream I/O</a></li>
+<li><a href="/en-us/dotnet/standard/io/how-to-read-text-from-a-file" data-linktype="absolute-path">How to: Read Text from a File</a></li>
+<li><a href="/en-us/dotnet/standard/io/how-to-write-text-to-a-file" data-linktype="absolute-path">How to: Write Text to a File</a></li>
+<li><a href="/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file" data-linktype="absolute-path">How to: Read and Write to a Newly Created Data File</a></li>
+</ul>
+
+
+						<!-- </content> -->
+
+						</main>
+
+						<!-- page rating section -->
+								<div class="is-hidden-desktop has-border-top has-margin-top-large has-padding-top-small">
+									
+									
+<div class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small" data-bi-name="rating">
+    <div class="binary-rating">
+        <div class="binary-rating-buttons">
+            <h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+            <div>
+                <button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" aria-expanded="false" data-bi-sat="1" aria-controls="rating-container-mobile">
+                    <span aria-hidden="true" class="icon docon docon-like"></span>
+                    <span>Yes</span>
+                </button>
+                <button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-controls="rating-container-mobile">
+                    <span aria-hidden="true" class="icon docon docon-dislike"></span>
+                    <span>No</span>
+                </button>
+            </div>
+        </div>
+        <form class="feedback-verbatim-form is-hidden" id="rating-container-mobile">
+            <div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-extra-small">
+                <label for="rating-textarea-mobile" class="visually-hidden">Any additional feedback?</label>
+                <textarea id="rating-textarea-mobile" rows="4" maxlength="999" placeholder="Any additional feedback?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+            </div>
+            <div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+                <button class="skip-rating button is-transparent has-text-primary is-small has-border-none" type="button">Skip</button>
+                <button class="submit-rating button is-primary is-small" data-bi-name="rating-verbatim" disabled type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="thankyou-rating is-hidden" tabindex="-1">
+        <p>Thank you.</p>
+    </div>
+</div>								</div>
+						<!-- end page rating section -->
+
+
+						<!-- feedback section -->
+
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus ">
+<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <div class="is-flex is-full-height has-padding-right-extra-large-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link has-flex-shrink-none" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-large has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text"></span></a>
+		<div class="has-margin-left-medium has-margin-right-medium has-flex-shrink-none">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button is-transparent is-small is-icon-only-touch has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Light					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+			<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2020</li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+					<div class="is-size-small right-container column is-one-quarter is-one-fifth-desktop is-hidden-mobile is-hidden-tablet-only" data-bi-name="pageactions" role="complementary" aria-label="Page Actions">
+						<div id="affixed-right-container" class="doc-outline is-fixed is-vertically-scrollable">
+								
+								
+<div class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small" data-bi-name="rating">
+    <div class="binary-rating">
+        <div class="binary-rating-buttons">
+            <h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+            <div>
+                <button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" aria-expanded="false" data-bi-sat="1" aria-controls="rating-container-desktop">
+                    <span aria-hidden="true" class="icon docon docon-like"></span>
+                    <span>Yes</span>
+                </button>
+                <button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-controls="rating-container-desktop">
+                    <span aria-hidden="true" class="icon docon docon-dislike"></span>
+                    <span>No</span>
+                </button>
+            </div>
+        </div>
+        <form class="feedback-verbatim-form is-hidden" id="rating-container-desktop">
+            <div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-extra-small">
+                <label for="rating-textarea-desktop" class="visually-hidden">Any additional feedback?</label>
+                <textarea id="rating-textarea-desktop" rows="4" maxlength="999" placeholder="Any additional feedback?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+            </div>
+            <div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+                <button class="skip-rating button is-transparent has-text-primary is-small has-border-none" type="button">Skip</button>
+                <button class="submit-rating button is-primary is-small" data-bi-name="rating-verbatim" disabled type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="thankyou-rating is-hidden" tabindex="-1">
+        <p>Thank you.</p>
+    </div>
+</div>							<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Article Outline">
+								<h3>In this article</h3>
+							</nav>
+						</div>
+					</div>
+
+					<!--end of div.columns -->
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div id="openFeedbackContainer" class="openfeedback-container"></div>
+
+	<div class="footerContainer has-default-focus is-hidden-interactive ">
+
+
+<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+
+    <div class="is-flex is-full-height has-padding-right-extra-large-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link has-flex-shrink-none" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-large has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text"></span></a>
+		<div class="has-margin-left-medium has-margin-right-medium has-flex-shrink-none">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button is-transparent is-small is-icon-only-touch has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Light					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+			<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2020</li>
+    </ul>
+</footer>
+	</div>
+
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+	<span id="adobe-target-experiment-container" hidden></span>
+</body>
+</html>
+
